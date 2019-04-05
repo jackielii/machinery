@@ -1,4 +1,4 @@
-module github.com/RichardKnop/machinery
+module github.com/jackielii/machinery
 
 require (
 	cloud.google.com/go v0.36.0
