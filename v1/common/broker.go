@@ -3,11 +3,11 @@ package common
 import (
 	"errors"
 
-	"github.com/RichardKnop/machinery/v1/brokers/iface"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/log"
-	"github.com/RichardKnop/machinery/v1/retry"
-	"github.com/RichardKnop/machinery/v1/tasks"
+	"github.com/jackielii/machinery/v1/brokers/iface"
+	"github.com/jackielii/machinery/v1/config"
+	"github.com/jackielii/machinery/v1/log"
+	"github.com/jackielii/machinery/v1/retry"
+	"github.com/jackielii/machinery/v1/tasks"
 )
 
 // Broker represents a base broker structure

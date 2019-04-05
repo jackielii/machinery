@@ -7,17 +7,17 @@ import (
 	"reflect"
 	"testing"
 
-	machinery "github.com/RichardKnop/machinery/v1"
-	"github.com/RichardKnop/machinery/v1/config"
+	machinery "github.com/jackielii/machinery/v1"
+	"github.com/jackielii/machinery/v1/config"
 	"github.com/stretchr/testify/assert"
 
-	amqpbroker "github.com/RichardKnop/machinery/v1/brokers/amqp"
-	redisbroker "github.com/RichardKnop/machinery/v1/brokers/redis"
-	sqsbroker "github.com/RichardKnop/machinery/v1/brokers/sqs"
+	amqpbroker "github.com/jackielii/machinery/v1/brokers/amqp"
+	redisbroker "github.com/jackielii/machinery/v1/brokers/redis"
+	sqsbroker "github.com/jackielii/machinery/v1/brokers/sqs"
 
-	amqpbackend "github.com/RichardKnop/machinery/v1/backends/amqp"
-	memcachebackend "github.com/RichardKnop/machinery/v1/backends/memcache"
-	redisbackend "github.com/RichardKnop/machinery/v1/backends/redis"
+	amqpbackend "github.com/jackielii/machinery/v1/backends/amqp"
+	memcachebackend "github.com/jackielii/machinery/v1/backends/memcache"
+	redisbackend "github.com/jackielii/machinery/v1/backends/redis"
 )
 
 var (

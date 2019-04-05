@@ -15,17 +15,10 @@ require (
 	github.com/streadway/amqp v0.0.0-20190214183023-884228600bc9
 	github.com/stretchr/testify v1.3.0
 	github.com/stvp/tempredis v0.0.0-20181119212430-b82af8480203 // indirect
-	github.com/tidwall/pretty v0.0.0-20180105212114-65a9db5fad51 // indirect
+	github.com/tidwall/pretty v0.0.0-20190325153808-1166b9ac2b65 // indirect
 	github.com/urfave/cli v1.20.0
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
 	github.com/xdg/stringprep v1.0.0 // indirect
 	go.mongodb.org/mongo-driver v1.0.0
-	go.opencensus.io v0.19.0 // indirect
-	golang.org/x/crypto v0.0.0-20190219172222-a4c6cb3142f2 // indirect
-	golang.org/x/net v0.0.0-20190213061140-3a22650c66bd // indirect
-	golang.org/x/oauth2 v0.0.0-20190220154721-9b3c75971fc9 // indirect
-	golang.org/x/sys v0.0.0-20190221075227-b4e8571b14e0 // indirect
-	google.golang.org/genproto v0.0.0-20190219182410-082222b4a5c5 // indirect
-	google.golang.org/grpc v1.18.0 // indirect
 	gopkg.in/yaml.v2 v2.2.2
 )

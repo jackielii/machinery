@@ -10,15 +10,15 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	opentracing_log "github.com/opentracing/opentracing-go/log"
 
-	"github.com/RichardKnop/machinery/v1"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/log"
-	"github.com/RichardKnop/machinery/v1/tasks"
+	"github.com/jackielii/machinery/v1"
+	"github.com/jackielii/machinery/v1/config"
+	"github.com/jackielii/machinery/v1/log"
+	"github.com/jackielii/machinery/v1/tasks"
 	"github.com/google/uuid"
 	"github.com/urfave/cli"
 
-	exampletasks "github.com/RichardKnop/machinery/example/tasks"
-	tracers "github.com/RichardKnop/machinery/example/tracers"
+	exampletasks "github.com/jackielii/machinery/example/tasks"
+	tracers "github.com/jackielii/machinery/example/tracers"
 )
 
 var (
